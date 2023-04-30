@@ -1,0 +1,140 @@
+body {
+    background-color: beige;
+    font-family: sans-serif; 
+    font-style: normal;
+}
+
+header, nav, main, section {
+    background-color: white;
+    width: 1100px;
+    margin: auto; 
+}
+
+header, nav, main, section h3{
+    border-bottom: 2px solid grey;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+header img {
+    width: 150px;
+    margin-left: 30px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: 530;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-stretch: ultra-expanded;
+    
+}
+ul li {
+    margin-right: 25px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #257ece;
+    font-weight: normal;
+}
+
+main article {
+    width: 360px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+article img,
+article p {
+    width: 320px;
+}
+
+article p {
+    text-align: justify;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+section img {
+    width: 250px;
+    margin-left: 30px;
+    margin-top:  24px;
+}
+
+section p { 
+    margin-left: 20px ;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#sales-person-description h3, #sales-person-description ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-left: 20px;
+}
+#sales-person-description ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+   
+}
+
+
+section  h3 {
+    margin-right: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+#sales-person-description ul li {
+    list-style: circle;
+    margin-top: 0;
+    padding-top: 0;
+}
+
